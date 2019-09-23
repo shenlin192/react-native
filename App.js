@@ -36,7 +36,7 @@ export default function App(props) {
     );
   } else {
     return (
-      <ScrollView
+      <View
         style={styles.container}
         scrollEventThrottle={16}
          onScroll={handleScroll}
@@ -65,7 +65,7 @@ export default function App(props) {
           {/*<AppNavigator />*/}
           <View style={{width: 300, height:500, backgroundColor: 'red'}} />
         </ScrollView>
-      </ScrollView>
+      </View>
     );
   }
 }
@@ -123,3 +123,17 @@ const styles = StyleSheet.create({
 
   },
 });
+
+/*
+* Button Navigation to Main page
+* */
+
+/*
+MainPage
+* Header
+* BasicInfo
+* Recommendation
+* PopularItems
+* Pictures
+* Discount
+* */
